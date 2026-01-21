@@ -5,9 +5,9 @@ Data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print("Actual Data is :", Data)
 
 FData = list(filter(lambda No : No % 2 != 0,Data))
-print("List of Even numbers is : ",FData)
+print("List of Odd numbers is : ",FData)
 
 #------------------------------------------------------------------------
 # Output -
 # Actual Data is : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-# List of Even numbers is :  [1, 3, 5, 7, 9]
+# List of Odd numbers is :  [1, 3, 5, 7, 9]
