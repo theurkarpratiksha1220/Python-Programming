@@ -4,8 +4,6 @@
 # Expected Output: Display contents of Demo.txt on console.
 # ------------------------------------------------------------------------------------------------------------------------------------------------
 
-import os
-
 def main():
     try:
         FileName = input("Enter the name of the file: ")
