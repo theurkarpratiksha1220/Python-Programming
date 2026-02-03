@@ -4,8 +4,6 @@
 # Expected Output: Count how many times “Marvellous” appears in Demo.txt
 # ------------------------------------------------------------------------------------------------------------------------------------------------
 
-import os
-
 def main():
     FileName = input("Enter the name of the file: ")
     StringUser = input("Enter a string you want to search in file: ")
