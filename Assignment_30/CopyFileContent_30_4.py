@@ -5,8 +5,6 @@
 # Expected Output: Contents of ABC.txt copied into Demo.txt
 # -----------------------------------------------------------------------------------------------------------------------------
 
-import sys
-
 def main():
 
     ExistFile = input("Enter the name of the existing file: ")
