@@ -1,0 +1,17 @@
+-----------------------------------------------------------------
+This is a log file created by Automation_Script_31_4
+-----------------------------------------------------------------
+New Target 'Temp1' directory created successfully
+-----------------------------------------------------------------
+File copied successfully
+File Name : abc.jpg
+Source path : Demo/abc.jpg
+Target path : Temp1/abc.jpg
+-----------------------------------------------------------------
+File copied successfully
+File Name : pqr.jpg
+Source path : Demo/pqr.jpg
+Target path : Temp1/pqr.jpg
+-----------------------------------------------------------------
+All files copied from existing directory to new target directory with specified extension
+-----------------------------------------------------------------

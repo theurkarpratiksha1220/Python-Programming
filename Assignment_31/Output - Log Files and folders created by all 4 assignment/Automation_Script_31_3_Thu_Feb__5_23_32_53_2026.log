@@ -1,0 +1,33 @@
+-----------------------------------------------------------------
+This is a log file created by Automation_Script_31_3
+-----------------------------------------------------------------
+New Target 'Temp' directory created successfully
+-----------------------------------------------------------------
+File copied successfully
+Source path : Demo/a2.pdf
+Target path : Temp/a2.pdf
+File Name - Source : a2.pdf
+File Name - Target : a2.pdf
+-----------------------------------------------------------------
+File copied successfully
+Source path : Demo/a1.png
+Target path : Temp/a1.png
+File Name - Source : a1.png
+File Name - Target : a1.png
+-----------------------------------------------------------------
+File copied successfully
+Source path : Demo/abc.jpg
+Target path : Temp/abc.jpg
+File Name - Source : abc.jpg
+File Name - Target : abc.jpg
+-----------------------------------------------------------------
+File copied successfully
+Source path : Demo/pqr.jpg
+Target path : Temp/pqr.jpg
+File Name - Source : pqr.jpg
+File Name - Target : pqr.jpg
+-----------------------------------------------------------------
+Total number of files copied from Source Directory into Target Directory : 4
+-----------------------------------------------------------------
+All files copied from existing directory to new target directory
+-----------------------------------------------------------------

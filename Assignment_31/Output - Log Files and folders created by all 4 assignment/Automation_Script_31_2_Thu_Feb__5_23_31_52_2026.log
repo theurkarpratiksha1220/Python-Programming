@@ -1,0 +1,28 @@
+-----------------------------------------------------------------
+This is a log file created by Automation_Script_31_2
+-----------------------------------------------------------------
+
+Searching for file with '.txt' extension in 'Demo' and replace with '.jpg' extension
+-----------------------------------------------------------------
+File Name - Previous : abc.txt
+File Name - New after Renamed : abc.jpg
+File Path of previous extension : Demo/abc.txt
+File Path of new renamed extension : Demo/abc.jpg
+File Extension - Previous : .txt
+File Extension - New : .jpg
+-----------------------------------------------------------------
+Renamed done successfully: Demo/abc.txt --> Demo/abc.jpg
+-----------------------------------------------------------------
+File Name - Previous : pqr.txt
+File Name - New after Renamed : pqr.jpg
+File Path of previous extension : Demo/pqr.txt
+File Path of new renamed extension : Demo/pqr.jpg
+File Extension - Previous : .txt
+File Extension - New : .jpg
+-----------------------------------------------------------------
+Renamed done successfully: Demo/pqr.txt --> Demo/pqr.jpg
+-----------------------------------------------------------------
+Total files renamed in directory : 2
+-----------------------------------------------------------------
+Renaming completed successfully.
+-----------------------------------------------------------------
