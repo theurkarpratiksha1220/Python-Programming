@@ -1,0 +1,29 @@
+-----------------------------------------------------------------
+This is a log file created by Automation_Script_32_4
+-----------------------------------------------------------------
+--------------------------------------------------
+-------------Duplicate Files------------
+--------------------------------------------------
+
+Checksum : 8b1a9953c4611296a827abf8c47804d7
+Temp/xyz.txt
+Temp/xyz_dupfile.txt
+
+Checksum : e14518141aa2089a082721e1896ee64c
+Temp/abc.jpg
+Temp/pqr.jpg
+Duplicate files found in directory.
+--------------------------------------------------
+Deleted file : Temp/xyz_dupfile.txt
+--------------------------------------------------
+--------------------------------------------------
+Deleted file : Temp/pqr.jpg
+--------------------------------------------------
+--------------------------------------------------
+Total deleted files : 2
+--------------------------------------------------
+
+Duplicate file removal completed successfully
+--------------------------------------------------
+Execution time :  0.0017268657684326172 seconds
+Automation Script execution completed.

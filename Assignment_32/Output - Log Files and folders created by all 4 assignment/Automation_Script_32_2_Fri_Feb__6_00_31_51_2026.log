@@ -1,0 +1,17 @@
+-----------------------------------------------------------------
+This is a log file created by Automation_Script_32_2
+-----------------------------------------------------------------
+--------------------------------------------------
+-------------Duplicate Files------------
+--------------------------------------------------
+
+Checksum : 8b1a9953c4611296a827abf8c47804d7
+Demo/xyz.txt
+Demo/xyz_dupfile.txt
+
+Checksum : e14518141aa2089a082721e1896ee64c
+Demo/abc.jpg
+Demo/pqr.jpg
+Duplicate files found in directory.
+Displayed duplicate files successfully.
+--------------------------------------------------
