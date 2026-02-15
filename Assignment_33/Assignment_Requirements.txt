@@ -1,0 +1,67 @@
+Please follow below rules while designing automation script as
+- Accept input through command line or through file.
+- Display any message in log file instead of console.
+- For separate task define separate function.
+- For robustness handle every expected exception. 
+- Perform validations before taking any action.
+- Create user defined modules to store the functionality.
+
+Please add below features in out project named as Platform Surveillance System
+
+1. Add Thread Monitoring features
+for each running process, display:
+    - Process Name 
+    - PID
+    - Number of Threads created by that process
+
+requirement - store information in log along with timestamp.
+
+2. Add Open Files Monitoring features
+for each process display:
+    - Number of files opened by the process
+
+requirement
+    - count open file descriptors using system/ library calls
+    - handle permission errors properly
+    - mention "Access Denied" in log if required.
+
+3. Add Actual Memory Allocation features
+Display real memory usage of each process:
+    - RSS (Resident Set Size - actual RAM used)
+    - VMS (Virtual Memory)
+    - Memory Percentage
+
+reuiqrement 
+    show:
+    - Top 10 memory consuming processes
+
+4. Add periodic Email Reporting features
+Automatically send system report through email at regular intervals.
+Email must contain:
+    - Log file attachment
+    - Summary of:
+    - Total Process
+    - Top CPU Usage Process
+    - Top Memory usage processes
+    - Top Thread count processes
+    - Top Open file processes
+
+Usage - PlatformSurveillance.py "MarvellousLogs" "receiver@gmail.com" 10
+
+where:
+    - MarvellousLogs --> Log folder
+    - receiver@gmail.com --> receiver mail
+    - 10 --> interval in minutes
+
+#-----------------------------------------------------------------------------#
+
+Expected Output in Log Files
+Each process entry should include:
+
+    Process Name
+    PID
+    CPU %
+    Memory (RSS)
+    Threads count
+    Open files count
+    timestamp
