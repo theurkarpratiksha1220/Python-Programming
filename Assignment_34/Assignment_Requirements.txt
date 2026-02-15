@@ -1,0 +1,41 @@
+Please follow below rules while designing automation script as
+- Accept input through command line or through file.
+- Display any message in log file instead of console.
+- For separate task define separate function.
+- For robustness handle every expected exception. 
+- Perform validations before taking any action.
+- Create user defined modules to store the functionality.
+
+Please add below features in our project named as Marvellous Data Shield
+
+1. Logging System
+    - Create a Logs/ Folders
+    - Store:
+        - Backup start timestamp
+        - Files copied
+        - Zip file name
+        - Errors(if any)
+
+2. Email Notification
+- send an email after backup completion
+- attach:
+    - Log file
+    - Zip file name
+
+3. Restore features
+- Add a command:
+    python Script.py --restore ZipFileName Destination
+- Extract backup to given directory 
+
+4. Exclude Files/ Folders
+- Ignore:
+    - .tmp, .log, .exe 
+    - or user defined extensions
+
+5.Backup History Tracker
+- Maintain a file:
+    - Date
+    - Number of files
+    - Zip size
+- Display history using:
+    python Script.py --history
