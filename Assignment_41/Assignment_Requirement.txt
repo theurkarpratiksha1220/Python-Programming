@@ -1,0 +1,77 @@
+1. Write a python program that classifies a new data point using K-Nearest Neighbors algorithm.
+   The algorithm should be implemented manually without using any machine learning library.
+
+   The program should:
+	•	Calculate Euclidean distance
+	•	Sort distances
+	•	Select K nearest neighbors
+	•	Predict the class based on majority voting
+
+   Dataset
+   Point  X  Y  label
+     A    1  2   Red
+     B    2  3   Red
+     C    3  1   Blue
+     D    6  5   Blue
+
+   Tasks
+	1.	Accept X and Y coordinates of a new point from the user.
+	2.	Compute Euclidean distance from all dataset points.
+	3.	Sort the distances.
+	4.	Select K = 3 nearest neighbors.
+	5.	Predict the class label.
+
+   Input Format
+    Enter X coordinate: 2
+    Enter Y coordinate: 2
+
+   Expected Output
+    Nearest Neighbors:
+	A - Distance: 1.0
+	B - Distance: 1.0
+    C - Distance: 1.41
+
+    Predicted Class: Red
+
+2. The value of K plays an important role in the KNN algorithm.
+   Write a Python program that demonstrates how prediction changes when K changes.
+
+   Dataset
+   Use the same dataset as Assignment 1.
+
+   Tasks
+   Predict the class of the same new point using:
+    - K = 1
+	- K = 3
+	- K = 5
+
+    Expected Output
+    Prediction Results
+    K = 1 → Red
+    K = 3 → Red
+    K = 5 → Blue
+    Explain why the prediction changes when K increase
+
+3. Use KNN to predict whether a student passes or fails based on study hours and attendance.
+
+   Dataset
+   
+   Study Hours   Attendance   Result
+        2           60          Fail
+        5           80          Pass
+        6           85          Pass
+        1           50          Fail
+
+   Tasks
+	1.	Accept input from user:
+           - Study hours
+           - Attendance percentage
+	2.	Apply KNN algorithm
+    3.  Predict whether the student Passes or fails
+
+    Input Example
+        Enter Study Hours: 4
+        Enter Attendance: 70
+
+    Expected Output
+        Predicted Result: Pass
