@@ -1,0 +1,26 @@
+4. 	Why is KNN called a lazy learner?
+--> KNN (K-Nearest Neighbors) is called a lazy learner because it does not build a model during training.
+    Instead, it stores all the training data and performs computation only when a prediction is needed. 
+
+5.  What happens if K is too small?
+--> Low bias, high variance → Risk of overfitting
+
+6.  What happens if K is too large?
+--> High bias, low variance → Risk of underfitting
+
+7.  Why does linear regression minimize squared error?
+--> Linear regression minimizes squared error because squaring penalizes larger errors more and produces a smooth, convex function, allowing a unique solution
+
+8.  What is the difference between MSE and R2?
+--> 1. MSE - Average of squared differences between actual and predicted values
+         ≥ 0 (lower is better)
+    2. R2  - Proportion of variance in the dependent variable explained by the model
+         0 to 1 (sometimes slightly negative if model is worse than mean)
+
+9.  Why R2 cannot be greater than 1?
+--> R² cannot be greater than 1 because a model cannot explain more variance than what exists in the data.
+
+10. Can KNN be used for regression?
+--> Yes! KNN can be used for regression.
+Instead of predicting the most common class (classification), it predicts the average value of the K nearest neighbors.
+This is called KNN regression.

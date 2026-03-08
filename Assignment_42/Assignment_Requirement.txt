@@ -1,0 +1,68 @@
+1. Implement Simple Linear Regression manually without using any ML library.
+
+    Dataset
+
+    X = [1,2,3,4,5]
+    Y = [3,4,2,4,5]
+
+    Tasks
+    Calculate:
+	    1.	Mean of X (X)
+	    2.	Mcan of Y (Y)
+	    3.	Slope (m)
+	    4.	Intercept (c)
+
+    Expected Output Example
+        
+        Mean of X = 3
+        Mean of Y = 3.6
+
+        Slope (m) = 0.4
+        Intercept (c) = 2.4
+
+    Regression Equation:
+        
+        Y = 0.4X + 2.4
+
+    Predicted Y for X = 6 : 4.8
+
+
+2. Using the same dataset from above question, calculate model performance.
+
+    Tasks
+	    1.	Predict all Y values using regression equation.
+	    2.	Calculate:
+                • Mean Squared Error (MSE)
+                • R2 Score
+            Show all intermediate calculations.
+
+3. Consider below task
+	1.	Train linear regression model.
+	2.	Predict salary for 6 years of experience.
+	3.	Plot regression line using matplotlib.
+
+    Dataset
+    Experience    Salary
+        1           20000
+        2           25000
+        3           30000
+        4           35000
+        5           40000
+
+    Expected Output
+
+        Predicted Salary for 6 Years Experience: Rupees 45000
+
+    Graph should display:
+        • Data points
+        • Regression line
+
+
+4. 	Why is KNN called a lazy learner?
+5.  What happens if K is too small?
+6.  What happens if K is too large?
+7.  Why does linear regression minimize squared error?
+8.  What is the difference between MSE and R2?
+9.  Why R2 cannot be greater than 1?
+10. Can KNN be used for regression?
+
