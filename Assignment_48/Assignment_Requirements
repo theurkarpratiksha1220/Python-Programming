@@ -1,0 +1,28 @@
+1. Write a Python program that calculates the mean of a dataset using NumPy for the following values:
+[6, 7, 8, 9, 10, 11, 12]
+
+2. Write a Python program that calculates the variance and standard deviation of the dataset:
+[6,7,8, 9, 10, 11, 12]
+Display both results.
+
+3. Write a Python program using StandardScaler to perform feature scaling on the following dataset:
+[[25,20000],
+[30,40000],
+[35,80000]]
+Print the scaled dataset.
+
+4. Write a Python program to calculate the Euclidean distance between two points before and after applying feature scaling, and explain the difference in results.
+
+8. Write a Python program that calculates TP, TN, FP, FN for the following arrays:
+actual =
+[1,1,1,1,0,0,0,0]
+predicted =
+[1,1,0,1,0,1,0,0]
+Display all four values.
+
+9. Write a Python program using scikit-learn to generate a classification report for the following data: 
+actual
+=[1,1,1,1,0,0,0,0]
+predicted
+=[1,1,0,1,0,1,0,0]
+Display the complete classification report including precision, recall, F1-score, and support.
