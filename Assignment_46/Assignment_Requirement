@@ -1,0 +1,27 @@
+7. Write a python program using LinearRegression to train a regression model using the dataset below.
+Study Hours    Marks
+    1           50
+    2           55
+    3           60
+    4           65
+    5           70
+
+your program should:
+- Train the regression model
+- Print the coefficient
+- Print the intercept
+
+8. Using regression model created in the previous question, write a python program predict marks for 6 study hours and display the predicted value.
+
+9. consider the dataset below:
+StudyHours   SleepHours   Marks
+    1           7           50
+    2           6           55
+    3           7           60
+    4           6           65
+    5           8           70
+
+write python program to:
+- Train a regression model using the dataset
+- Print the coefficients for both features
+- Print the intercept
