@@ -1,0 +1,48 @@
+Deep Learning Assignment
+
+1: Write a Python program to simulate a single artificial neuron.
+
+Input:
+    x1 = 2
+    x2 = 3
+    w1 = 0.4
+    w2 = 0.6
+    bias = 0.5
+
+Tasks:
+    1. Calculate weighted sum.
+    2. Apply sigmoid activation function.
+    3. Display final output.
+    4. Explain whether output is close to 0 or 1.
+
+---------------------------------------------------------------------------------
+2: Write a Python program to demonstrate different activation functions.
+
+Functions to implement:
+    1. Sigmoid
+    2. ReLU
+    3. Tanh
+
+Tasks:
+    1. Accept input values from - 10 to 10.
+    2. Plot all activation functions using Matplotlib.
+    3. Explain the use of each activation function.
+
+---------------------------------------------------------------------------------
+3: Write a Python program to calculate loss manually.
+Tasks:
+    1. Implement Mean Squared Error.
+    2. Implement Binary Cross Entropy
+    3. Take actual and predicted values
+    4. Display the calculated loss
+    5. Explain which loss function is used for regression and classification
+
+---------------------------------------------------------------------------------
+4: Write a Python program to show how weights are updated in ANN.
+
+Tasks:
+1. Take input, weight, bias, target output, and learning rate.
+2. Calculate prediction.
+3. Calculate error.
+4. Update weight using gradient descent logic.
+5. Display old weight and updated weight.
