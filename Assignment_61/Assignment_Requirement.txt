@@ -1,0 +1,101 @@
+1: Create a neural network model to predict whether a customer will leave a service.
+
+Features:
+    1. Age
+    2. Monthly charges
+    3. Tenure
+    4. Number of complaints
+    5. Customer support calls
+
+    X=[
+    [25, 500, 12, 1, 2],
+    [30, 700, 24, 0, 1],
+    [45, 1200, 6, 5, 8],
+    [50, 1500, 5, 6, 10],
+    [28, 600, 18, 1, 1],
+    [35,800, 30,0,0],
+    [48, 1400, 4, 7, 9],
+    [52, 1600, 3, 8, 12],
+    [27,550, 20, 0, 1],
+    [42, 1300, 8, 4,7]
+    ]
+
+    y=[
+    0, 0, 1, 1, 0,
+    0, 1, 1, 0, 1
+    ]
+
+Output:
+    0 = Customer will stay
+    1 = Customer will leave
+
+Tasks:
+    1. Load or create dataset.
+    2. Clean the dataset.
+    3. Apply StandardScaler.
+    4. Train FNN model.
+    5. Evaluate accuracy.
+
+Feature Meaning - [Age, Monthly Charges, Tenure, Complaints, Support Calls]
+
+Output Meaning
+    O = Customer will stay
+    1 = Customer will leave
+
+Test Input
+    new_customer = [[46, 1450, 5, 6, 91]]
+
+Expected Output
+    Prediction: Customer may leave
+
+--------------------------------------------------------------------------------
+2 : Create a neural network model to predict loan approval.
+
+Features:
+    1. Applicant income
+    2. Credit score
+    3. Loan amount
+    4. Existing EMI
+    5. Employment status
+
+Output:
+    0 = Loan rejected
+    1 = Loan approved
+
+Tasks:
+    1. Preprocess categorical values.
+    2. Apply scaling.
+    3. Train FNN model.
+    4. Evaluate model.
+    5. Predict approval for new applicant.
+
+Dataset
+    x=[
+    [125000, 600, 200000, 10000, 01],
+    [40000, 700, 300000, 8000, 1],
+    [60000, 750, 500000, 12000, 1],
+    [20000, 550, 150000, 15000, 01],
+    [80000, 800, 700000, 10000, 11,
+    [35000, 650, 250000, 9000, 1],
+    [18000, 500, 100000, 12000, 0],
+    190000, 850, 800000, 15000, 1],
+    [30000, 580, 200000, 14000, 0],
+    [70000, 780, 600000, 10000, 1]
+    ]
+
+y = [ 
+    0, 1, 1, 0, 1,
+    1, 0, 1, 0, 1 
+]
+
+Feature Meaning - [Income, Credit Score, Loan Amount, Existing EMI, Employment Status]
+
+Employment Status:
+    0 = Not Stable
+    1 = Stable
+
+Test Input - new_applicant = [|55000, 720, 400000, 10000, 11]
+
+Expected Output
+    Prediction: Loan approved 
+
